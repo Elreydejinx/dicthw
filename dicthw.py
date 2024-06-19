@@ -9,8 +9,9 @@ restaurant_menu = {
 }
 
 restaurant_menu["Beverages"] = "Cream_soda: 3.25", "Orange_juice: 2.99"
+restaurant_menu["Main Course"]["Steak"]=17.99
+del restaurant_menu["Starters"]["Bruschetta"]
 print(restaurant_menu)
 
-restaurant_menu.update({"Steak": "17.99"})
-print(restaurant_menu)
+# Customer Service Ticket Tracker
 
